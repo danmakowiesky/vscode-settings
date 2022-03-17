@@ -1,17 +1,24 @@
 {
-  "terminal.integrated.fontSize": 16,
-  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 13.6,
+  "editor.fontSize": 13.6,
 
   "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#dadada",
+    "activityBarBadge.background": "#333",
+    "activityBarBadge.foreground": "#ccc",
+    "activityBar.inactiveForeground": "#333"
+  },
   "editor.formatOnSave": true,
 
   "editor.tabSize": 2,
   "editor.lineHeight": 20,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "SourceCodePro-regular",
   //"editor.fontFamily": "'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontLigatures": true,
   "editor.semanticHighlighting.enabled": false,
+  "editor.fontWeight": "400",
 
   "explorer.compactFolders": false,
   "editor.renderLineHighlight": "gutter",
@@ -161,11 +168,19 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "git.confirmSync": false,
-  "workbench.colorTheme": "Palenight Italic",
-  "workbench.tree.indent": 18,
+  "workbench.colorTheme": "NetBeans Light Theme",
+  "workbench.tree.indent": 14,
   "bracketPairColorizer.depreciation-notice": false,
   "prettier.jsxSingleQuote": true,
   "editor.minimap.enabled": false,
 
-  "eslint.workingDirectories": ["src"]
+  "eslint.workingDirectories": ["src"],
+  "bracketPairColorizer.showBracketsInGutter": true,
+  "bracketPairColorizer.showBracketsInRuler": true,
+  "bracketPairColorizer.colorMode": "Independent",
+  "bracketPairColorizer.independentPairColors": [
+    ["()", ["Purple"], "Red"],
+    ["[]", ["Blue"], "Red"],
+    ["{}", ["Black"], "Red"]
+  ]
 }
