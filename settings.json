@@ -1,14 +1,15 @@
 {
-  "terminal.integrated.fontSize": 13.6,
-  "editor.fontSize": 13.6,
+  "terminal.integrated.fontSize": 14.6,
+  "editor.fontSize": 14.6,
 
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorCustomizations": {
     "activityBar.background": "#dadada",
     "activityBarBadge.background": "#333",
     "activityBarBadge.foreground": "#ccc",
-    "activityBar.inactiveForeground": "#333"
+    "activityBar.inactiveForeground": "#333",
+    "activityBar.activeBorder": "#333"
   },
   "editor.formatOnSave": true,
 
@@ -56,11 +57,19 @@
     ".stylelintrc": "json",
     ".prettierrc": "json",
     "*.tsx": "typescriptreact",
-    ".env.*": "dotenv"
+    ".env.*": "dotenv",
+    "*.css": "tailwindcss"
+  },
+
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "ts"
   },
 
   "emmet.syntaxProfiles": { "javascript": "jsx" },
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
 
   "gitlens.codeLens.recentChange.enabled": true,
   "gitlens.codeLens.authors.enabled": true,
@@ -142,6 +151,7 @@
     "Areatype",
     "chakra",
     "middlewares",
+    "namta",
     "prefetch",
     "rocketseat",
     "upsert"
@@ -168,7 +178,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "git.confirmSync": false,
-  "workbench.colorTheme": "NetBeans Light Theme",
   "workbench.tree.indent": 14,
   "bracketPairColorizer.depreciation-notice": false,
   "prettier.jsxSingleQuote": true,
@@ -179,8 +188,21 @@
   "bracketPairColorizer.showBracketsInRuler": true,
   "bracketPairColorizer.colorMode": "Independent",
   "bracketPairColorizer.independentPairColors": [
-    ["()", ["Purple"], "Red"],
-    ["[]", ["Blue"], "Red"],
-    ["{}", ["Black"], "Red"]
-  ]
+    ["()", ["orange"], "Red"],
+    ["[]", ["blue"], "Red"],
+    ["{}", ["green"], "Red"]
+  ],
+
+  "css.validate": false,
+  "window.zoomLevel": 0,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.accessibilitySupport": "off",
+  "workbench.colorTheme": "NetBeans Light Theme",
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "Dracula",
+  "workbench.preferredLightColorTheme": "NetBeans Light Theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
